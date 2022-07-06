@@ -4,8 +4,8 @@ import Sink from "./Sink"
 const Kitchen = (props) => {
   return (
     <>
-      <div>
-        <h3>Kichin</h3>
+      <div className="kitchen">
+        <h3>Kitchen</h3>
         <Oven />
         <Sink />
       </div>

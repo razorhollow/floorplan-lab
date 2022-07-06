@@ -1,7 +1,7 @@
 const Oven = (props) => {
   return (
     <>
-      <div>
+      <div className="oven">
         <h4>Oven</h4>
       </div>
     </>

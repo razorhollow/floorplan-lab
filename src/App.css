@@ -41,4 +41,53 @@ div {
   border: 1px solid grey;
   margin: 5px;
   padding: 5px;
+  color: white;
 }
+
+.bedroom {
+  background-color: lightskyblue;
+  grid-column-end: span 2;
+  grid-row-end: span 2;
+}
+
+.bath {
+  background-color: palegreen;
+}
+
+.living-room {
+  background-color: bisque;
+  grid-column: 3 / span 2;
+  grid-row: 1 / span 3;
+}
+
+.kitchen {
+  background-color: goldenrod;
+  display: grid;
+  grid-row-end: span 3;
+}
+
+.oven {
+  background-color: darkred;
+}
+
+.sink {
+  background-color: sienna;
+}
+
+.floor-plan {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+#bed-1 {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+
+#Full-bath {
+  grid-row: 3 / span 1;
+  grid-column: 1 / span 2;
+}
+
+
